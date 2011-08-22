@@ -59,7 +59,6 @@
 {
 	if (![self.timer isValid])
 	{
-		MPLogWarn(@"Could not schedule invalidated MPTimer (%p).", self);
 		return NO;
 	}
 	
