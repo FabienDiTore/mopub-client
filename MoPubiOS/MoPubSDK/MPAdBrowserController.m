@@ -95,6 +95,7 @@ static NSArray *BROWSER_SCHEMES, *SPECIAL_HOSTS;
 	self.forwardButton.title = nil;
 	self.spinnerItem.customView = _spinner;	
 	self.spinnerItem.title = nil;
+	[_webView setScalesPageToFit:YES];
 }
 
 - (void)viewWillAppear:(BOOL)animated
